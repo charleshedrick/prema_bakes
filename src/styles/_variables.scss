@@ -1,0 +1,56 @@
+/* Primary Colors */
+:root {
+  --dark-color: hsl(212, 100%, 72%);
+  --primary-color: #a7d8ba;
+  --secondary-color: #e96f51;
+  --tertiary-color: #f8d586;
+
+  --color-red: #e96f51;
+  --color-orange: #f5a361;
+  --color-yellow: #f8d586;
+  --color-cream: #e7e3d6;
+  --color-beige: #d7d2c3;
+  --color-green: #bcd3ba;
+  --color-green-transparent: hsl(143, 39%, 75%, 0.7);
+  --color-light-blue: #86c0d1;
+  --color-medium-blue: #25aae1;
+  --color-dark-blue: #4f69b2;
+  --color-purple: #c999b2;
+  --color-purple-light: #ceacbe;
+
+  --black: hsl(240, 11%, 26%);
+  --white: hsl(60, 17%, 83%);
+  --white-light: hsl(60, 18%, 87%);
+
+  --button-color: var(--secondary-color);
+  --button-active: hsl(21, 72%, 65%);
+
+  --success-color: #6bd684;
+  --warning-color: #ffd863;
+  --error-color: #dc3545;
+
+  --body-bg: var(--black);
+  --text-color: var(--white);
+  --nav: var(--white);
+
+  --fs-12: 0.75rem;
+  --fs-14: 0.875rem;
+  --fs-18: 1.125rem;
+  --fs-20: 1.25rem;
+  --fs-24: 1.5rem;
+  --fs-28: 1.75rem;
+  --fs-32: 2rem;
+  --fs-36: 2.25rem;
+  --fs-40: 2.5rem;
+  --fs-48: 3rem;
+  --fs-56: 3.5rem;
+  --fs-64: 4rem;
+  --fs-72: 4.5rem;
+  --fs-88: 5.5rem;
+  --fs-96: 6rem;
+  --fs-120: 7.5rem;
+}
+
+$mobile-breakpoint: 480px;
+$tablet-breakpoint: 1024px;
+$desktop-breakpoint: 1024px;

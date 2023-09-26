@@ -1,0 +1,226 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Oswald:wght@200;300;400;500;600;700&family=Poiret+One&display=swap");
+header {
+  width: 100%;
+  height: 80px;
+  background-color: none;
+  position: fixed;
+  background-color: var(--color-green);
+}
+
+nav {
+  height: 100%;
+  width: 100%;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  font-weight: 300;
+  height: 100%;
+}
+nav ul li {
+  margin-left: 50px;
+}
+nav ul li:last-child {
+  margin-right: 50px;
+}
+
+footer {
+  display: flex;
+  width: 100%;
+  height: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero {
+  background-color: var(--color-green);
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.hero h1 {
+  font-size: var(--fs-88);
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.content {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content-wrapper {
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100%;
+  margin-top: 150px;
+}
+.content-wrapper h2 {
+  font-size: var(--fs-48);
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+body {
+  width: 100vw;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-color: var(--color-cream);
+  color: var(--black);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+/* Reset all margins, padding, and borders */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  text-rendering: optimizeLegibility;
+}
+
+/* Normalize font properties */
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%; /* Prevent text size adjustment in Safari */
+  scroll-behavior: smooth;
+}
+
+/* Reset margins */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/* Reset list styles */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Remove default link styles */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Reset form elements */
+input,
+button,
+textarea,
+select {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+/* Normalize vertical alignment for inputs in different browsers */
+input[type=text],
+input[type=email],
+input[type=password],
+input[type=number],
+input[type=search],
+textarea {
+  vertical-align: middle;
+}
+
+/* Remove default button styles */
+button {
+  color: inherit;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+/* Reset image alignment */
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  font-family: "Oswald", sans-serif;
+}
+
+p {
+  font-family: "Manrope", sans-serif;
+  letter-spacing: 1px;
+  text-align: justify;
+}
+
+/* Primary Colors */
+:root {
+  --dark-color: hsl(212, 100%, 72%);
+  --primary-color: #a7d8ba;
+  --secondary-color: #e96f51;
+  --tertiary-color: #f8d586;
+  --color-red: #e96f51;
+  --color-orange: #f5a361;
+  --color-yellow: #f8d586;
+  --color-cream: #e7e3d6;
+  --color-beige: #d7d2c3;
+  --color-green: #bcd3ba;
+  --color-green-transparent: hsl(143, 39%, 75%, 0.7);
+  --color-light-blue: #86c0d1;
+  --color-medium-blue: #25aae1;
+  --color-dark-blue: #4f69b2;
+  --color-purple: #c999b2;
+  --color-purple-light: #ceacbe;
+  --black: hsl(240, 11%, 26%);
+  --white: hsl(60, 17%, 83%);
+  --white-light: hsl(60, 18%, 87%);
+  --button-color: var(--secondary-color);
+  --button-active: hsl(21, 72%, 65%);
+  --success-color: #6bd684;
+  --warning-color: #ffd863;
+  --error-color: #dc3545;
+  --body-bg: var(--black);
+  --text-color: var(--white);
+  --nav: var(--white);
+  --fs-12: 0.75rem;
+  --fs-14: 0.875rem;
+  --fs-18: 1.125rem;
+  --fs-20: 1.25rem;
+  --fs-24: 1.5rem;
+  --fs-28: 1.75rem;
+  --fs-32: 2rem;
+  --fs-36: 2.25rem;
+  --fs-40: 2.5rem;
+  --fs-48: 3rem;
+  --fs-56: 3.5rem;
+  --fs-64: 4rem;
+  --fs-72: 4.5rem;
+  --fs-88: 5.5rem;
+  --fs-96: 6rem;
+  --fs-120: 7.5rem;
+}
