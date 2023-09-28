@@ -1,3 +1,7 @@
+main {
+  width: calc(100% - 10px);
+}
+
 .hero {
   background-color: var(--color-green);
   height: 100vh;
@@ -8,9 +12,16 @@
   justify-content: center;
 
   h1 {
-    font-size: var(--fs-88);
-    text-transform: uppercase;
+    font-size: var(--fs-96);
+    //text-transform: uppercase;
     font-weight: 700;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+  }
+
+  p {
+    font-weight: 500;
+    font-size: var(--fs-18);
   }
 }
 
@@ -22,7 +33,7 @@
   justify-content: center;
 
   &-wrapper {
-    max-width: 1200px;
+    max-width: 1000px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -34,6 +45,7 @@
       font-size: var(--fs-48);
       text-transform: uppercase;
       font-weight: 300;
+      margin-bottom: 30px;
     }
   }
 }
