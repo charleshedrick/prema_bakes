@@ -1,15 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Oswald:wght@200;300;400;500;600;700&family=Poiret+One&display=swap");
+//font-family: 'Poiret One', cursive;
+//font-family: "Manrope", sans-serif;
+//font-family: "Oswald", sans-serif;
+
 @import url("https://fonts.googleapis.com/css2?family=Gloock&display=swap");
+//font-family: "Gloock", serif;
+
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+//font-family: "Quicksand", sans-serif;
 
 body {
-  //font-family: "Manrope", sans-serif;
-  //font-family: "Oswald", sans-serif;
-  //font-family: 'Poiret One', cursive;
-  font-family: "Gloock", serif;
+  font-family: "Quicksand", sans-serif;
 }
 
 p {
-  font-family: "Manrope", sans-serif;
   letter-spacing: 1px;
-  text-align: justify;
+  //text-align: justify;
 }
