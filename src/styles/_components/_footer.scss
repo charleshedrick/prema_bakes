@@ -4,4 +4,8 @@ footer {
   height: 20px;
   align-items: center;
   justify-content: center;
+
+  p {
+    font-size: var(--fs-12);
+  }
 }
