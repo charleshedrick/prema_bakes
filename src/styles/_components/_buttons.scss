@@ -5,3 +5,26 @@
   text-transform: uppercase;
   font-weight: 600;
 }
+
+.slide-button {
+  margin-right: 10px;
+  cursor: pointer;
+  //font-size: var(--fs-36);
+  color: var(--color-red);
+  background-color: var(--color-red);
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+
+  &:hover {
+    background-color: var(--white);
+    color: var(--black);
+    border: 2px solid;
+  }
+}
+
+.slide-button.active {
+  background-color: var(--white);
+  color: var(--black);
+  border: 2px solid;
+}

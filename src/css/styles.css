@@ -10,6 +10,27 @@
   font-weight: 600;
 }
 
+.slide-button {
+  margin-right: 10px;
+  cursor: pointer;
+  color: var(--color-red);
+  background-color: var(--color-red);
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+.slide-button:hover {
+  background-color: var(--white);
+  color: var(--black);
+  border: 2px solid;
+}
+
+.slide-button.active {
+  background-color: var(--white);
+  color: var(--black);
+  border: 2px solid;
+}
+
 header {
   align-items: center;
   background-color: var(--white);
@@ -362,21 +383,9 @@ p {
   text-align: left;
 }
 
-.hero-image {
-  height: 100%;
-  width: 100vw;
-}
-
-.hero-nav-wrapper {
-  display: flex;
-  justify-content: center;
-  margin-top: 20px;
-}
-
 .carousel-container {
   position: relative;
   overflow: hidden;
-  width: 100%;
 }
 
 .carousel-slides {
@@ -392,30 +401,15 @@ p {
 .carousel-navigation {
   display: flex;
   position: absolute;
-  bottom: 40px;
+  bottom: 30px;
   width: 100%;
   justify-content: center;
 }
 
-.slide-button {
-  margin-right: 10px;
-  cursor: pointer;
-  color: var(--color-red);
-  background-color: var(--color-red);
-  width: 15px;
-  height: 15px;
-  border-radius: 50%;
-}
-.slide-button:hover {
-  background-color: var(--white);
-  color: var(--black);
-  border: 2px solid;
-}
-
-.slide-button.active {
-  background-color: var(--white);
-  color: var(--black);
-  border: 2px solid;
+.hero-nav-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
 }
 
 .markets-wrapper {
