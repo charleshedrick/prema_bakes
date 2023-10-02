@@ -8,6 +8,11 @@
   margin: 10px;
   text-transform: uppercase;
   font-weight: 600;
+  display: flex;
+  justify-content: center;
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: var(--white);
 }
 
 .slide-button {
@@ -29,6 +34,12 @@
   background-color: var(--white);
   color: var(--black);
   border: 2px solid;
+}
+
+.back-button {
+  position: fixed;
+  top: 70px;
+  left: 10px;
 }
 
 header {
@@ -168,13 +179,12 @@ main {
   font-size: var(--fs-36);
   text-transform: uppercase;
   font-weight: 500;
-  margin-bottom: 30px;
   letter-spacing: 2px;
   text-align: center;
-  width: 80%;
+  width: 90%;
 }
 .content-wrapper p {
-  width: 80%;
+  width: 90%;
   text-align: center;
   font-weight: 400;
 }
@@ -213,11 +223,11 @@ body {
 }
 
 /* Desktop */
-@media screen and (min-width: 1200px) {
-  body {
-    padding-right: 10px;
-  }
+section {
+  border-top: 1px solid;
+  border-bottom: 1px solid;
 }
+
 /* Reset all margins, padding, and borders */
 *,
 *::before,
@@ -370,6 +380,7 @@ p {
 .hero p {
   padding: 10vw;
   text-align: center;
+  margin-top: 10px;
 }
 
 #hero-tag {
@@ -414,9 +425,30 @@ p {
 
 .markets-wrapper {
   display: flex;
+  align-items: center;
   justify-content: center;
+  flex-direction: column;
+}
+.markets-wrapper p {
+  font-size: var(--fs-14);
+  font-weight: 500;
+  width: 80%;
+}
+
+.attention {
+  color: var(--color-red);
+  font-size: var(--fs-12);
+}
+
+.bottom-margin {
+  margin-bottom: 20px;
 }
 
 .image-sourdough {
   width: 80%;
+}
+
+.image-custom {
+  width: 80%;
+  align-items: start;
 }

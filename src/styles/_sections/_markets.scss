@@ -1,4 +1,21 @@
 .markets-wrapper {
   display: flex;
+  align-items: center;
   justify-content: center;
+  flex-direction: column;
+
+  p {
+    font-size: var(--fs-14);
+    font-weight: 500;
+    width: 80%;
+  }
+}
+
+.attention {
+  color: var(--color-red);
+  font-size: var(--fs-12);
+}
+
+.bottom-margin {
+  margin-bottom: 20px;
 }

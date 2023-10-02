@@ -65,3 +65,26 @@ function resetTimer() {
 // Initial display and start the slideshow
 showSlide(slideIndex);
 startSlideshow();
+
+// EMAIL.JS //
+emailjs.init("wYsMD78n1ztOm7LR8");
+
+document.addEventListener("DOMContentLoaded", function () {
+  const form = document.getElementById("email-form");
+
+  form.addEventListener("submit", function (event) {
+    event.preventDefault();
+
+    const formData = new FormData(form);
+
+    emailjs.sendForm("service_vwfk2ma", "template_1fzkd3r", formData).then(
+      function (response) {
+        alert("Email sent successfully!");
+        form.reset();
+      },
+      function (error) {
+        alert("Error sending email: " + error.text);
+      }
+    );
+  });
+});
